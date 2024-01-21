@@ -40,7 +40,9 @@ async function displayProductList() {
                 <td>${product.title.substring(0, 60)} ...</td>
                 <td>$${product.price}</td>
                 <td>
-                <a href='/products/edit.html?id=${product.id}'>
+                <a href='/products/edit.html?id=${
+                  product.id
+                }' class="text-decoration-none">
                     <button type="button" class="btn btn-primary">Edit</button>
                 </a>
                 <button onClick="handleDeleteProduct(${
