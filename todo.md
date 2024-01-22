@@ -56,15 +56,15 @@
   - Lang nghe su kien: DOMContentLoaded: dam bao DOM HTML -> tuong tac DOM
   - function init () : code chuc nang web
   - async function renderProdcutList()
-  -  B1: Lay Data - API - server
-    await fetch(API_URL)
-    await res.json()
-    - B2: Create new Element document.createElement('')
-     Add class: div.classList.add('class')
-    - B3: Update Content - InnerHTML-> map() -> UI Udemy: video 151
-    - B4: getElementByID(parent)
-         Tim diem neo Insert : getElementByID (product-list)
-    - B5: Insert DOM : parent.appenChild(child)
+  - B1: Lay Data - API - server
+    - await fetch(API_URL)
+    - await res.json()
+  - B2: Create new Element document.createElement('')
+     - Add class: div.classList.add('class')
+  - B3: Update Content - InnerHTML-> map() -> UI Udemy: video 151
+  - B4: getElementByID(parent)
+      - Tim diem neo Insert : getElementByID (product-list)
+  - B5: Insert DOM : parent.appenChild(child)
 # Server
 - Cài đặt nodejs
 - cd server
